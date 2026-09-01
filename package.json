@@ -1,0 +1,20 @@
+{
+  "name": "workshop",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "exercises/*"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
