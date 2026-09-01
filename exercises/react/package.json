@@ -30,7 +30,7 @@
     "@types/node": "^26.2.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
-    "@workshop/linter": "workspace:*",
+    "@workshop/linter": "file:../../packages/linter",
     "babel-plugin-react-compiler": "19.0.0-beta-e1e972c-20250221",
     "eslint": "^10.8.1",
     "tailwindcss": "^4",

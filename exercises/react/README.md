@@ -15,10 +15,10 @@ Welcome to TK Maxx's React fundamentals workshop! Just like the shop floor, this
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
 # Run development server
-pnpm dev
+npm run dev
 
 # Visit http://localhost:3000
 ```
